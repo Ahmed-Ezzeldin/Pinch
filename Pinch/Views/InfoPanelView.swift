@@ -24,9 +24,7 @@ struct InfoPanelView: View {
                         isInfoPanelVisible.toggle()
                     }
                 }
-            
             Spacer()
-            
             // MARK: Info Panel ======================================
             HStack(spacing: 2){
                 Image(systemName: "arrow.up.left.and.arrow.down.right")
